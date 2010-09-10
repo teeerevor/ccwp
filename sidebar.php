@@ -1,5 +1,13 @@
 <div id="sidebar">
 
+	<!-- ^^^^^^^^^^^^^^ Flickr Badge ^^^^^^^^^^^^^^ -->
+	<div class="box" style="text-align:center;margin-top:10px;">
+	  <div class="ads">
+			<a href="/category/ccjwp/">Central Coast Junior Water Polo</a>
+			<a href="/category/ccjwp/">CCWP Draw</a>
+	  </div>
+	</div>
+
 <!-- ^^^^^^^^^^^^^^ Flickr Badge ^^^^^^^^^^^^^^ -->
 <div class="box" style="text-align:center;margin-top:10px;">
   <div class="ads">
