@@ -30,8 +30,12 @@ ol {list-style-type: decimal}
 .clear {clear: both}
 /***************************************************/
 body {
-        background: #dbf4ff url(images/bg.gif) repeat-x top;
+    background: #dbf4ff url(images/bg.gif) repeat-x top;
 	text-align: center;
+}
+
+.ccjwp {
+    background-color: #f4ffd1;
 }
 
 #container {

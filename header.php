@@ -28,7 +28,7 @@
 <?php wp_head(); ?>
 
 </head>
-<body>
+<body <?php if (is_category('ccjwp')){echo 'class="ccjwp"';} ?> >
 
 <div id="container">
 
@@ -37,7 +37,8 @@
 
         <div id="logo">
 	<a href="<?php echo get_option('home'); ?>/" title="<?php bloginfo('name'); ?>">
-         <img src="/wp-content/themes/blue-dream/images/cclogo.gif" /></a>
+         <!--img src="/wp-content/themes/ccwp/images/cclogo.gif" /></a-->
+	       <img src="/ccwp/wp-content/themes/ccwp/images/cclogo.gif" /></a> 
 	</div>
 
 </div>
