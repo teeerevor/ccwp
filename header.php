@@ -28,7 +28,11 @@
 <?php wp_head(); ?>
 
 </head>
-<body <?php if (is_category('ccjwp')){echo 'class="ccjwp"';} ?> <?php if (is_page('ccwp-draw')){echo 'class="draw"';} ?> >
+<body class=" <?php the_category_unlinked(' '); ?> 
+             <?php if (is_page('ccwp-draw')){echo 'draw';} ?>
+             <?php if (is_page('ccjwp-draw')){echo 'draw';} ?> " >
+
+<!-- <?php the_category_unlinked(' '); ?> -->
 
 <div id="container">
 
@@ -37,9 +41,11 @@
 
         <div id="logo">
 	<a href="<?php echo get_option('home'); ?>/" title="<?php bloginfo('name'); ?>">
-         <!--img src="/wp-content/themes/ccwp/images/cclogo.gif" /></a-->
-	       <img src="/ccwp/wp-content/themes/ccwp/images/cclogo.gif" /></a> 
-	</div>
+  <!--img src="/wp-content/themes/ccwp/images/cclogo.gif" /></a-->
+  <img src="/ccwp/wp-content/themes/ccwp/images/cclogo.gif" /></a>
+</div>
+
+<img src="/ccwp/wp-content/themes/ccwp/images/flippaball_logo.gif" class='flippaball_logo'/>
 
 </div>
 <div class="clear"></div>

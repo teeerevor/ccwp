@@ -1,16 +1,23 @@
 <div id="sidebar">
 
 	<!-- ^^^^^^^^^^^^^^ Flickr Badge ^^^^^^^^^^^^^^ -->
-	<div class="box" style="text-align:center;margin-top:10px;">
-	  <div class="ads">
-			<a href="/category/ccjwp/">Central Coast Junior Water Polo</a>
-			<a href="/category/ccjwp/">CCWP Draw</a>
-	  </div>
+	<div id='big_links' class="box" >
+      <ul>
+        <li>
+	  	    <a href="/category/ccjwp/">Central Coast Junior Water Polo</a>
+        </li>
+        <li>
+          <a href="/page/ccwp-draw/">CCWP Draw</a>
+        </li>
+        <li>
+          <a href="/page/ccjwp-draw/">CCJWP Draw</a>
+        </li>
+
+      </ul>
 	</div>
 
 <!-- ^^^^^^^^^^^^^^ Flickr Badge ^^^^^^^^^^^^^^ -->
-<div class="box" style="text-align:center;margin-top:10px;">
-  <div class="ads">
+<div class="box">
   <!-- Start of Flickr Badge -->
   <style type="text/css">
   #flickr_badge_source_txt {padding:0; font: 11px Arial, Helvetica, Sans serif; color:#666666;}
@@ -34,13 +41,11 @@
   </td></tr></table>
   <!-- End of Flickr Badge -->
   <a class="FlickrQ" href="/central-coast-water-polo-photos-on-flickr/"> Want your photo up there?</a>
-  </div>
 </div>
 
 <!-- ^^^^^^^^^^^^^^ League Engine Tables ^^^^^^^^^^^^^^ -->
 
-<div class="box" style="text-align: center; margin-top: 10px;">
-  <div class="ads">
+<div class="box">
 		<style type='text/css'>
 		  div.LeagueEngine {margin: 20px 0 20px 25px;}
 		  div.LeagueEngine #league_name {text-align: left; color:#444444; margin: 5px 0 10px 20px;}
@@ -55,21 +60,18 @@
     <script src="http://league-engine.heroku.com/leagues/league_list/5.js" type="text/javascript"></script>
     <script src="http://league-engine.heroku.com/leagues/league_list/7.js" type="text/javascript"></script>
     <script src="http://league-engine.heroku.com/leagues/league_list/3.js" type="text/javascript"></script>
-  </div>
 </div>
 
 <!-- ^^^^^^^^^^^^^^ Google Calandar ^^^^^^^^^^^^^^ -->
 
-<div class="box" style="text-align:center;margin-top:10px;">
-  <div class="ads">
+<div class="box"
 		<h3 style="margin:10px 0">Coming up...</h3>
 		<iframe src="//www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;mode=AGENDA&amp;height=500&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=nth5jfa47g2u6ioneu50dsu8pg%40group.calendar.google.com&amp;color=%2329527A&amp;src=r65e1dkdgv31b3i1o928aofko4%40group.calendar.google.com&amp;color=%23BE6D00&amp;ctz=Australia%2FSydney" style=" border-width:0 " width="380" height="500" frameborder="0" scrolling="no"></iframe>
 		<div></div>
-	</div>
 </div>
 
 <!-- ^^^^^^^^^^^^^^ rss subscription code ^^^^^^^^^^^^^^ -->
-<div class="box">
+<!--div class="box">
 	<h2>RSS Subscription</h2>
 	<div class="subscribe">
 
@@ -77,7 +79,7 @@
 	<div class="rssfeedlinks"><a href="<?php bloginfo('rss2_url'); ?>">Posts RSS</a><a href="<?php bloginfo('comments_rss2_url'); ?>">Comments RSS</a><div class="clear"></div></div>
 
 	</div>
-</div>
+</div-->
 <!-- ^^^^^^^^^^^^^^ rss subscription code ^^^^^^^^^^^^^^ -->
 
 <!-- ^^^^^^^^^^^^^^ tabbed content ^^^^^^^^^^^^^^ -->

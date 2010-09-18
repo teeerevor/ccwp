@@ -34,10 +34,6 @@ body {
 	text-align: center;
 }
 
-.ccjwp {
-    background-color: #fef8be;
-}
-
 #container {
 	width: 980px;
 	margin-right: auto;
@@ -46,7 +42,8 @@ body {
 }
 
 #header {
-	width: 980px;
+	position: relative;
+  width: 980px;
 	height: 173px;
 }
 /***************************************************/
@@ -223,6 +220,12 @@ form#srcform #srcbutton {
 	color: #999;
 	font-size: 11px;
 	line-height: 1.4em;
+}
+
+.flippaball_logo{
+  position: absolute;
+  right: 90px;
+  top: 20px;
 }
 
 #about {
@@ -575,7 +578,7 @@ code {
 	margin-bottom: 4px;
 }
 
-.aligncenter {
+.aligncenter{
 	text-align: center;
 	display: inline;
 }
@@ -601,7 +604,13 @@ body.draw #sidebar{
 }
 /***************************************************/
 .box {
-	width: 420px;
+	width: 369px;
+  text-align: center;
+  margin-top: 10px;
+	padding: 0 25px 10px 25px;
+	border: 1px solid #eee;
+	background: #FFF;
+
 }
 
 .box h2 {
@@ -633,12 +642,6 @@ a.FlickrQ:hover {
 	display: block;
 	background: url(images/tab.gif) repeat-x bottom;
 	color: #FFF;
-}
-
-.ads {
-	padding: 0 25px 10px 25px;
-	border: 1px solid #eee;
-	background: #FFF;
 }
 
 .ads ul {
@@ -1363,4 +1366,65 @@ table.greentable a:hover {
 
 table.greentable tfoot th, table.greentabletfoot td {
 	font-size: 85%;
+}
+
+/**************************************************
+ * CCJWP
+ * ************************************************/
+
+.ccjwp {
+    background-color: #fef8be;
+}
+
+.flippaball_logo{
+  display: none;
+}
+
+.ccjwp .flippaball_logo{
+  display: block;
+}
+
+
+/**************************************************
+ * draw pages
+ * ************************************************/
+
+.draw #column{
+  width: 1000px;
+}
+
+.draw .content{
+  width: 1000px;
+}
+
+.draw .post-top, .draw .post-bottom{
+  display: none;
+}
+
+/**************************************************
+ * big_links
+ * ************************************************/
+
+#big_links{
+  text-align:left;
+}
+
+#big_links ul { margin-top: 10px; }
+#big_links li{
+  background:url("images/bullet.gif") no-repeat scroll left 9px transparent;
+  border-bottom:1px dotted #DDDDDD;
+  display:block;
+  padding-bottom:4px;
+  padding-left:20px;
+  padding-top:4px;
+}
+
+#big_links a {
+  color:#366799;
+  display:block;
+  line-height:1.4em;
+}
+
+#big_links a:hover {
+  color: #5ea2e7;
 }
