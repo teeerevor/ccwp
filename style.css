@@ -595,6 +595,10 @@ p.wp-caption-text {
 	width: 420px;
 	border-top: 5px solid #79d8ff;
 }
+
+body.draw #sidebar{
+  display: none;
+}
 /***************************************************/
 .box {
 	width: 420px;

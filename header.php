@@ -28,7 +28,7 @@
 <?php wp_head(); ?>
 
 </head>
-<body <?php if (is_category('ccjwp')){echo 'class="ccjwp"';} ?> >
+<body <?php if (is_category('ccjwp')){echo 'class="ccjwp"';} ?> <?php if (is_page('ccwp-draw')){echo 'class="draw"';} ?> >
 
 <div id="container">
 
