@@ -1411,7 +1411,7 @@ table.greentable tfoot th, table.greentabletfoot td {
 
 #big_links ul { margin-top: 10px; }
 #big_links li{
-  background:url("images/bullet.gif") no-repeat scroll left 9px transparent;
+  background:url("images/bullet.gif") no-repeat scroll left 12px transparent;
   border-bottom:1px dotted #DDDDDD;
   display:block;
   padding-bottom:4px;
