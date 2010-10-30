@@ -1393,6 +1393,12 @@ table.greentable tfoot th, table.greentabletfoot td {
   width: 1000px;
 }
 
+.ccjwp.draw #column{
+  width: 1240px;
+  position: relative;
+  left: -150px;
+}
+
 .draw .content{
   width: 1000px;
 }

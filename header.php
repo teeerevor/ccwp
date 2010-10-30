@@ -28,11 +28,10 @@
 <?php wp_head(); ?>
 
 </head>
-<body class=" <?php the_category_unlinked(' '); ?> 
+<body class=" <?php if(! is_home()){ the_category_unlinked(' '); } ?>
              <?php if (is_page('ccwp-draw')){echo 'draw';} ?>
-             <?php if (is_page('ccjwp-draw')){echo 'draw';} ?> " >
-
-<!-- <?php the_category_unlinked(' '); ?> -->
+             <?php if (is_page('ccjwp-draw')){echo 'ccjwp draw';} ?> " >
+</div>
 
 <div id="container">
 
@@ -40,12 +39,12 @@
 <div id="header">
 
         <div id="logo">
-	<a href="<?php echo get_option('home'); ?>/" title="<?php bloginfo('name'); ?>">
-  <!--img src="/wp-content/themes/ccwp/images/cclogo.gif" /></a-->
-  <img src="/ccwp/wp-content/themes/ccwp/images/cclogo.gif" /></a>
+  <a href="<?php echo get_option('home'); ?>/" title="<?php bloginfo('name'); ?>">
+  <img src="/wp-content/themes/ccwp/images/cclogo.gif" /></a>
+  <!--img src="/ccwp/wp-content/themes/ccwp/images/cclogo.gif" /></a-->
 </div>
 
-<img src="/ccwp/wp-content/themes/ccwp/images/flippaball_logo.gif" class='flippaball_logo'/>
+<img src="/wp-content/themes/ccwp/images/flippaball_logo.gif" class='flippaball_logo'/>
 
 </div>
 <div class="clear"></div>
