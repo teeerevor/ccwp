@@ -1,10 +1,10 @@
 <div id="sidebar">
 
-	<!-- ^^^^^^^^^^^^^^ Flickr Badge ^^^^^^^^^^^^^^ -->
-	<div id='big_links' class="box" >
+  <!-- ^^^^^^^^^^^^^^ Flickr Badge ^^^^^^^^^^^^^^ -->
+  <div id='big_links' class="box" >
       <ul>
         <li>
-	  	    <a href="/category/ccjwp/">Central Coast Junior Water Polo</a>
+          <a href="/category/ccjwp/">Central Coast Junior Water Polo</a>
         </li>
         <li>
           <a href="/page/ccwp-draw/">CCWP Draw</a>
@@ -14,7 +14,7 @@
         </li>
 
       </ul>
-	</div>
+  </div>
 
 <!-- ^^^^^^^^^^^^^^ Flickr Badge ^^^^^^^^^^^^^^ -->
 <div class="box">
@@ -46,39 +46,39 @@
 <!-- ^^^^^^^^^^^^^^ League Engine Tables ^^^^^^^^^^^^^^ -->
 
 <div class="box">
-		<style type='text/css'>
-		  div.LeagueEngine {margin: 20px 0 20px 25px;}
-		  div.LeagueEngine #league_name {text-align: left; color:#444444; margin: 5px 0 10px 20px;}
-		  div.LeagueEngine table {border-collapse: collapse; }
-		  div.LeagueEngine table th {background-color:#5EA2E7; padding: 4px 7px; color: #eeeeee;}
-		  div.LeagueEngine tr.even{background-color: #ebf4ff;}
-		  div.LeagueEngine tr td{text-align:center; padding: 2px 2px; color: #444444;}
-		  div.LeagueEngine tr td:first-child{text-align:left; padding: 0 7px;}
-	  </style>
-    <script src="http://league-engine.heroku.com/leagues/league_list/4.js" type="text/javascript"></script>
-    <script src="http://league-engine.heroku.com/leagues/league_list/6.js" type="text/javascript"></script>
-    <script src="http://league-engine.heroku.com/leagues/league_list/5.js" type="text/javascript"></script>
-    <script src="http://league-engine.heroku.com/leagues/league_list/7.js" type="text/javascript"></script>
-    <script src="http://league-engine.heroku.com/leagues/league_list/3.js" type="text/javascript"></script>
+    <style type='text/css'>
+      div.LeagueEngine {margin: 20px 0 20px 25px;}
+      div.LeagueEngine #league_name {text-align: left; color:#444444; margin: 5px 0 10px 20px;}
+      div.LeagueEngine table {border-collapse: collapse; }
+      div.LeagueEngine table th {background-color:#5EA2E7; padding: 4px 7px; color: #eeeeee;}
+      div.LeagueEngine tr.even{background-color: #ebf4ff;}
+      div.LeagueEngine tr td{text-align:center; padding: 2px 2px; color: #444444;}
+      div.LeagueEngine tr td:first-child{text-align:left; padding: 0 7px;}
+    </style>
+    <script src="http://liquidleagues.heroku.com/leagues/show/1.js" type="text/javascript"></script>
+    <script src="http://liquidleagues.heroku.com/leagues/show/2.js" type="text/javascript"></script>
+    <script src="http://liquidleagues.heroku.com/leagues/show/3.js" type="text/javascript"></script>
+    <script src="http://liquidleagues.heroku.com/leagues/show/4.js" type="text/javascript"></script>
+    <script src="http://liquidleagues.heroku.com/leagues/show/5.js" type="text/javascript"></script>
 </div>
 
 <!-- ^^^^^^^^^^^^^^ Google Calandar ^^^^^^^^^^^^^^ -->
 
-<div class="box"
-		<h3 style="margin:10px 0">Coming up...</h3>
-		<iframe src="//www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;mode=AGENDA&amp;height=500&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=nth5jfa47g2u6ioneu50dsu8pg%40group.calendar.google.com&amp;color=%2329527A&amp;src=r65e1dkdgv31b3i1o928aofko4%40group.calendar.google.com&amp;color=%23BE6D00&amp;ctz=Australia%2FSydney" style=" border-width:0 " width="380" height="500" frameborder="0" scrolling="no"></iframe>
-		<div></div>
-</div>
+<!-- <div class="box"
+    <h3 style="margin:10px 0">Coming up...</h3>
+    <iframe src="//www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;mode=AGENDA&amp;height=500&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=nth5jfa47g2u6ioneu50dsu8pg%40group.calendar.google.com&amp;color=%2329527A&amp;src=r65e1dkdgv31b3i1o928aofko4%40group.calendar.google.com&amp;color=%23BE6D00&amp;ctz=Australia%2FSydney" style=" border-width:0 " width="380" height="500" frameborder="0" scrolling="no"></iframe>
+    <div></div>
+</div> -->
 
 <!-- ^^^^^^^^^^^^^^ rss subscription code ^^^^^^^^^^^^^^ -->
 <!--div class="box">
-	<h2>RSS Subscription</h2>
-	<div class="subscribe">
+  <h2>RSS Subscription</h2>
+  <div class="subscribe">
 
-	<div class="rssfeed">Subscribe via RSS reader:</div>
-	<div class="rssfeedlinks"><a href="<?php bloginfo('rss2_url'); ?>">Posts RSS</a><a href="<?php bloginfo('comments_rss2_url'); ?>">Comments RSS</a><div class="clear"></div></div>
+  <div class="rssfeed">Subscribe via RSS reader:</div>
+  <div class="rssfeedlinks"><a href="<?php bloginfo('rss2_url'); ?>">Posts RSS</a><a href="<?php bloginfo('comments_rss2_url'); ?>">Comments RSS</a><div class="clear"></div></div>
 
-	</div>
+  </div>
 </div-->
 <!-- ^^^^^^^^^^^^^^ rss subscription code ^^^^^^^^^^^^^^ -->
 
